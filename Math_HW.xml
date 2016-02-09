@@ -1,32 +1,32 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="15" x="-16" y="-30">
+  <block type="oled_cleardisplay" id="1" x="-16" y="-30">
     <next>
-      <block type="oled_setcursor" id="24" inline="true">
+      <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="31">
+          <block type="math_number" id="3">
             <field name="NUM">0</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="38">
+          <block type="math_number" id="4">
             <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="54">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">999999999999999999*1=</field>
             <next>
-              <block type="oled_drawnumber" id="377" inline="true">
+              <block type="oled_drawnumber" id="6" inline="true">
                 <value name="NUMBER">
-                  <block type="math_arithmetic" id="399" inline="true">
+                  <block type="math_arithmetic" id="7" inline="true">
                     <field name="OP">MULTIPLY</field>
                     <value name="A">
-                      <block type="math_number" id="412">
+                      <block type="math_number" id="8">
                         <field name="NUM">1000000000000000000</field>
                       </block>
                     </value>
                     <value name="B">
-                      <block type="math_number" id="419">
+                      <block type="math_number" id="9">
                         <field name="NUM">1</field>
                       </block>
                     </value>
